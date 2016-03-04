@@ -1,7 +1,7 @@
 {
-  "name": "perguntas-e-respostas",
-  "version": "0.0.0",
-  "description": "Maneira rápida de fazer um questionário em tempo real.",
+  "name": "questions-and-answers",
+  "version": "1.0.0",
+  "description": "Realtime quiz with one question that could be answered anonymously",
   "scripts": {
     "start": "node app/app.js"
   },
