@@ -4,7 +4,7 @@
   var socket, data, chart, question;
 
   socket = io.connect(window.server);
-  question = prompt("Qual é a sua pergunta?");
+  question = prompt("Ask a question");
 
   data = {
     labels: [],
@@ -20,7 +20,7 @@
       var quantity = data.series[data.labels.indexOf(value)];
       var percent = Math.round(data.series[data.labels.indexOf(value)] / data.series.reduce(sum) * 100) + '%';
 
-      return (value ? 'Sim' : 'Não') + ' (' + quantity  + ' - ' + percent + ')';
+      return (value ? 'Yes' : 'No') + ' (' + quantity  + ' - ' + percent + ')';
     }
   });
 

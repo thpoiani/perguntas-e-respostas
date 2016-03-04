@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .column.green::after {
-  content: 'Não';
+  content: 'No';
 }
 
 .column.green:hover{
@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 .column.red::after {
-  content: 'Sim';
+  content: 'Yes';
 }
 
 .column.red:hover {
