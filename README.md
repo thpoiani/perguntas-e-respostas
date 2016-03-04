@@ -11,7 +11,7 @@ Realtime quiz with one question that could be answered anonymously
 To execute the application, run `npm run start` on the server.
 
 ```
-realtime-pie-chart@1.0.0 start /realtime-pie-chart
+questions-and-answers@1.0.0 start /questions-and-answers
 node app/app.js
 Express server listening on port 3000
 ```
