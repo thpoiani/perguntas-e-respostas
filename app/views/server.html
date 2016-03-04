@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Perguntas e Respostas</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/chartist.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header class="question">
+            <h2></h2>
+        </header>
+
+        <div class="flexbox">
+            <div class="flex">
+                <div class="chart">
+                    <div class="ct-chart ct-square"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.server = '<%= server %>';
+        </script>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chartist.min.js"></script>
+        <script src="/js/server.js"></script>
+    </body>
+</html>

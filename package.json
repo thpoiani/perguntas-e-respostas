@@ -1,0 +1,17 @@
+{
+  "name": "perguntas-e-respostas",
+  "version": "0.0.0",
+  "description": "Maneira rápida de fazer um questionário em tempo real.",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "Thiago Henrique Poiani <thpoiani@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.1.2",
+    "ejs": "~1.0.0",
+    "express": "~4.9.7",
+    "ip": "~0.3.2",
+    "socket.io": "~1.1.0"
+  }
+}
