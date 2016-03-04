@@ -17,7 +17,12 @@ Express server listening on port 3000
 ```
 
 Client access: `http://localhost:3000`
+
+![](https://dl.dropboxusercontent.com/u/49252928/opensanca/questions-and-answers/screencapture-localhost-3000-1457130311597.png)
+
 Server/Administrator access: `http://localhost:3000/show`
+
+![](https://dl.dropboxusercontent.com/u/49252928/opensanca/questions-and-answers/screencapture-localhost-3000-show-1457130318426.png)
 
 ## License
 
